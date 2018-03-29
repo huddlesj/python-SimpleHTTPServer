@@ -1,6 +1,6 @@
-from:rhel7:latest
+FROM:rhel7:latest
 
-cmd yum install -y python
+CMD yum install -y python
 
 copy index.html /var/www/
 

@@ -1,4 +1,4 @@
-FROM rhel7:latest
+FROM rhel7
 
 CMD yum install -y python
 
